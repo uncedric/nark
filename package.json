@@ -1,11 +1,11 @@
 {
   "name": "nark",
-  "description": "Alerts and logs for your projects, nark will tell you when something goes wrong",
+  "description": "Alerts and logs for your projects, nark will tell you when something goes wrong or an important event happens",
   "author": {
     "name": "Cedric Luckie",
     "email": "cedric.luckie+github@gmail.com"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git@github.com:uncedric/nark.git"
