@@ -17,6 +17,7 @@ Enter your own credentials.
 var Nark = require('nark');
 
 nark = Nark.config({
+  app: 'Name of your project'
   reportTo:'jhondoe@xyz.com',
   mailSettings:{
     service: 'Gmail',
