@@ -5,7 +5,7 @@
     "name": "Cedric Luckie",
     "email": "cedric.luckie+github@gmail.com"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git@github.com:uncedric/nark.git"
@@ -22,6 +22,7 @@
   ],
   "dependencies": {
     "colors": "1.1.2",
+    "moment": "^2.10.3",
     "mysql": "^2.7.0",
     "nodemailer": "1.3.4",
     "sequelize": "3.3.0"
