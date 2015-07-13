@@ -19,3 +19,8 @@ nark.warning('Warning!!');
 nark.danger('There was an error somewhere',{foo:'hola',bar:'bartola'});
 
 nark.important('HEY, this is an important message, look at me');
+
+nark.log('This is a table',{
+  'Value 1 ':'123',
+  'Value 2':'234'
+});
