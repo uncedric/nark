@@ -42,7 +42,28 @@ Save log and print it:
 nark.log('Hola bartola');
 ```
 
-Save warning and print it in console
+You need to save additional information?
+
+```
+nark.log('Print a table for me please',{
+  'Name':'Bartola',
+  'Email':'barty@aol.com'
+})
+```
+
+It will print something like this:
+
+```
+┌───────┬───────────────┐
+│ Field │ Value         │
+├───────┼───────────────┤
+│ Name  │ Bartola       │
+├───────┼───────────────┤
+│ Email │ barty@aol.com │
+└───────┴───────────────┘
+```
+
+Save a warning and print it in console
 
 ```
 nark.warning('this is a warning that won\'t be sent');
