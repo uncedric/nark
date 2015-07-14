@@ -16,7 +16,7 @@ nark.log(hey);
 
 nark.warning('Warning!!');
 
-nark.danger('There was an error somewhere',{foo:'hola',bar:'bartola'});
+nark.danger('There was an error somewhere');
 
 nark.important('HEY, this is an important message, look at me');
 
